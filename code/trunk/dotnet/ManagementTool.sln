@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementTool", "..\inetpub\ManagementTool\ManagementTool.csproj", "{1910E958-C6D2-4572-8E80-D896C4AD72D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementTool.Framework", "ManagementTool.Framework\ManagementTool.Framework.csproj", "{EA28B55D-4B80-41FA-BF46-B887514DB557}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1910E958-C6D2-4572-8E80-D896C4AD72D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1910E958-C6D2-4572-8E80-D896C4AD72D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1910E958-C6D2-4572-8E80-D896C4AD72D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1910E958-C6D2-4572-8E80-D896C4AD72D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA28B55D-4B80-41FA-BF46-B887514DB557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA28B55D-4B80-41FA-BF46-B887514DB557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA28B55D-4B80-41FA-BF46-B887514DB557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA28B55D-4B80-41FA-BF46-B887514DB557}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
