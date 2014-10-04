@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ManagementTool.Framework.Models.Account;
 
 namespace ManagementTool.Controllers
 {
@@ -18,7 +19,8 @@ namespace ManagementTool.Controllers
 
         public ActionResult Login()
         {
-            return View("~/Views/Account/Login.cshtml");
+            var loginModel = new LoginVM();
+            return View("~/Views/Account/Login.cshtml", loginModel);
         }
 
         public ActionResult Register()

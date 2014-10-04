@@ -1,6 +1,14 @@
-﻿@{
+﻿@model ManagementTool.Framework.Models.Account.LoginVM
+
+@{
     ViewBag.Title = "Login";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Login</h2>
+
+@Html.LabelFor(r => r.Email, "Email")
+@Html.TextBoxFor(r => r.Email)
+@Html.LabelFor(r => r.Password, "Password")
+@Html.PasswordFor(r => r.Password)
+

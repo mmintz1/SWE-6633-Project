@@ -1,6 +1,21 @@
-﻿@{
+﻿@model ManagementTool.Framework.Models.Account.RegisterVM
+@{
     ViewBag.Title = "Register";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Register</h2>
+@Html.LabelFor(r => r.FirstName, "First Name")
+@Html.TextBoxFor(r => r.FirstName)
+
+@Html.LabelFor(r => r.LastName, "Last Name")
+@Html.TextBoxFor(r => r.LastName)
+
+@Html.LabelFor(r => r.Email, "Email")
+@Html.TextBoxFor(r => r.Email)
+
+@Html.LabelFor(r => r.Password, "Password")
+@Html.PasswordFor(r => r.Password)
+
+@Html.LabelFor(r => r.VerifyPassword, "Confirm Password")
+@Html.PasswordFor(r => r.VerifyPassword)

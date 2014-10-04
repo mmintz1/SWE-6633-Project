@@ -1,0 +1,15 @@
+﻿@model ManagementTool.Framework.Models.Task.TaskVM
+@{
+    ViewBag.Title = "CreateTask";
+}
+
+<h2>CreateTask</h2>
+
+@Html.LabelFor(t => t.Title, "Title")
+@Html.TextBoxFor(t => t.Title)
+
+@Html.LabelFor(t => t.Desription, "Desription")
+@Html.TextBoxFor(t => t.Desription)
+
+@Html.LabelFor(t => t.DueDate, "Due Date")
+@Html.TextBoxFor(t => t.DueDate)

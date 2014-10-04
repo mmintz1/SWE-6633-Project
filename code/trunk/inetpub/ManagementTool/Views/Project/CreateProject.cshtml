@@ -1,0 +1,17 @@
+﻿@model ManagementTool.Framework.Models.Project.ProjectVM
+@{
+    ViewBag.Title = "CreateProject";
+}
+
+<h2>CreateProject</h2>
+@Html.LabelFor(p => p.Title, "Title")
+@Html.TextBoxFor(p => p.Title)
+
+@Html.LabelFor(p => p.Description, "Description")
+@Html.TextBoxFor(p => p.Description)
+
+@Html.LabelFor(p => p.Manager, "Project Manager")
+@Html.TextBoxFor(p => p.Manager)
+
+@Html.LabelFor(p => p.DueDate, "Due Date")
+@Html.TextBoxFor(p => p.DueDate)
